@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="style.css"></link>
     <meta charset="ut-8">
     <title>newproyect HTML</title>
-  </head>
+    
 
-  <body style="background-color:#F9FBFF;">
+  <body>
+    <div>
+      <h1>
+        Acceso base de datos epilepsia
+      </h1>
+    </div>
     <div>
       <form>
         <center>
-          <table border="1" style="width:50%">
+          <table>
             <tr>
-              <td>
+              <td colspan="2">
+                <img src="/home/valeria/Documentos/dev/newproyect/assets/imageedit_1_8282753035.png" alt="description here" >
+              </td>
+            </tr>
+            <tr>
+              <td class="classe3">
                 <center>
                   <label for="username">Usuario:</label>
                 </center>
               </td>
-              <td>
+              <td class="classe3">
                 <center>
                   <input type="text" name="username"><br>
                 </center>
               </td>
             </tr>
             <tr>
-              <td>
+              <td class="classe3">
                 <center>
                   <label for="password">Contrase&#241;a:</label>
                 </center>
@@ -37,7 +48,8 @@
             <tr>
               <td colspan="2">
                 <center>
-                  <button type="submit">Iniciar Sesi&#243;n</button>
+                  <button type="submit" value="Iniciar sesion"
+                  onclick="window.open('/home/valeria/Documentos/dev/newproyect/components/formulario.html')">Iniciar Sesi&#243;n</button>
                   <button type="reset">Cancelar</button>
                 </center>
               </td>
@@ -45,13 +57,6 @@
           </table>
         </center>
         </form>
-      </center>
-    </div>
-    <div>
-      <center>
-        <a href="/home/valeria/Documentos/dev/newproyect/components/formulario.html">
-        Llenar formulario
-        </a>
       </center>
     </div>
 </body>
