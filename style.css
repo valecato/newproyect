@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat;
   background-position:top;
 }
-table {
+.login-table {
   text-align: center;
   color:#1C1824;
   border-style:outset;
@@ -15,17 +15,20 @@ table {
   padding-left: 18px;
   padding-right: 18px;
   padding-bottom: 14px;
+  border-collapse: inherit;
 }
+
 
 img {
   align-items: center
 }
 
 h1 {
-  color: #747F71;
-  font-family: 'Oswald', sans-serif;
-  font-size: 48px;
+
   text-align: center;
+  color:#1C1824;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
  }
 
 h2 {
@@ -57,12 +60,12 @@ h2 {
 
 
 button{
-  background-color:#BEB9FF;
+  background-color:#BEB9FF !important;
   cursor: pointer;
   text-align: center;
-  color: #1C1824;
-  font-family: 'Slabo 27px', serif;
+  color: #25242d !important;
+  font-family: 'Slabo 27px', serif !important;
   font-size: 14px;
-  border-radius: 2px;
-  margin-top: 12px;
+  border-radius: 2px !important;
+  margin-top: 12px !important;
 }
