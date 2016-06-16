@@ -18,10 +18,22 @@
 }
 
 body {
-  background-image: url(/home/valeria/Documentos/dev/newproyect/assets/white-christmas-light-background.jpg);
+  background-image: url(assets/ls.jpg);
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position:top;
 }
+
+img {
+  width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+  height: 80%;
+  width: 80%;
+}
+
 
 .firsttittle {
   font-size: 24px;
